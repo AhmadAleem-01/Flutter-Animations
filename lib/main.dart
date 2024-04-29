@@ -12,7 +12,9 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: const Center(
+        body:  SizedBox(
+          width: 200,
+          height: 200,
         child: RiveAnimation.asset(
           'animations/new_file.riv',
           fit: BoxFit.contain,
